@@ -1,6 +1,17 @@
 function Pricing() {
   const plans = [
     {
+      name: "Startup",
+      price: "$15",
+      period: "/mes",
+      features: [
+        "3 Usuarios",
+        "20 GB Almacenamiento",
+        "Soporte por Email"
+      ],
+      popular: false
+    },
+    {
       name: "Básico",
       price: "$29",
       period: "/mes",
